@@ -7,12 +7,12 @@
 filename ：读取的图像路径名；例如：”testdata/MotoX.jpg”。  
 flags ：彩色图or灰色图，1：表示彩色图；0：表示灰色图。  
 
-* imshow—显示图像  
+2. imshow—显示图像  
 函数原型 ：imshow(winname, mat)  
 winname ：窗口名字；例如：”MotoX”。  
 mat ：要显示的图像矩阵。  
 
-* imwrite—保存图像   
+3. imwrite—保存图像   
 函数原型 ： imwrite(filename, img, params=None)    
 filename ：保存到的图像路径名；例如：”testdata/NewMotoX.jpg”。   
 img ：要保存的图像矩阵；例如：image。  
@@ -42,23 +42,23 @@ cv2.waitKey(0)  #程序暂停
 图像高度:600个像素  
 图像通道数: 3
 ```
-![python learning 1](//ww1.sinaimg.cn/large/61b54654gw1extxgv8d1lj21cu10mnhz.jpg)
+![python learning 1](https://ww1.sinaimg.cn/large/61b54654gw1extxgv8d1lj21cu10mnhz.jpg)
 
 ## 访问与操作像素
 
 ### 一、函数简介
 
-1. 获取三维矩阵(i,j)处的元素
+1. 获取三维矩阵(i,j)处的元素   
 (b,g,r) = image[i,j]，image大小为：MxNxK。
 
-* 获取三维矩阵的子矩阵——第i行到第j行与第m列到第n列的交叉部分
+2. 获取三维矩阵的子矩阵——第i行到第j行与第m列到第n列的交叉部分   
 newImage = image[i:j,m:n]，image大小为：MxNxK。
 
 
 ### 二、实例演练
 
-1. 访问图像（0,0）处的像素并更改；
-* 访问图像第0行到第100行与第0列到第100列的交叉部分并更改；
+1. 访问图像（0,0）处的像素并更改；  
+2. 访问图像第0行到第100行与第0列到第100列的交叉部分并更改；
 
 ```python
 #encoding:utf-8
@@ -139,6 +139,6 @@ cv2.waitKey(0)#程序暂停
   [ 56 139 114]
   [ 57 140 115]]]
 ```
-![corner](//ww1.sinaimg.cn/large/61b54654gw1extzi2o1hhj20b406s74j.jpg)
+![corner](https://ww1.sinaimg.cn/large/61b54654gw1extzi2o1hhj20b406s74j.jpg)
 
-![Updated](//ww4.sinaimg.cn/large/61b54654gw1extzinxqnyj211i0yktmf.jpg)
+![Updated](https://ww4.sinaimg.cn/large/61b54654gw1extzinxqnyj211i0yktmf.jpg)
