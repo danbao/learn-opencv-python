@@ -42,7 +42,7 @@ cv2.waitKey(0)  #程序暂停
 图像高度:600个像素  
 图像通道数: 3
 ```
-![python learning 1](https://ww1.sinaimg.cn/large/61b54654gw1extxgv8d1lj21cu10mnhz.jpg)
+![python learning 1](http://ww1.sinaimg.cn/large/61b54654gw1extxgv8d1lj21cu10mnhz.jpg)
 
 ## 访问与操作像素
 
@@ -139,6 +139,6 @@ cv2.waitKey(0)#程序暂停
   [ 56 139 114]
   [ 57 140 115]]]
 ```
-![corner](https://ww1.sinaimg.cn/large/61b54654gw1extzi2o1hhj20b406s74j.jpg)
+![corner](http://ww1.sinaimg.cn/large/61b54654gw1extzi2o1hhj20b406s74j.jpg)
 
-![Updated](https://ww4.sinaimg.cn/large/61b54654gw1extzinxqnyj211i0yktmf.jpg)
+![Updated](http://ww4.sinaimg.cn/large/61b54654gw1extzinxqnyj211i0yktmf.jpg)
