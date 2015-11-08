@@ -256,17 +256,17 @@ cv2.waitKey(0)
 2. 红线  
 ![红线](http://ww2.sinaimg.cn/large/61b54654gw1exu1o38l4fj20go0hw0tv.jpg)
 
-3. 绿色矩形
+3. 绿色矩形  
 ![绿色矩形](http://ww1.sinaimg.cn/large/61b54654gw1exu1odgvavj20go0hwab9.jpg)
 
-4. 红色矩形
+4. 红色矩形  
 ![红色矩形](http://ww4.sinaimg.cn/large/61b54654gw1exu1oqisvqj20go0hw3zt.jpg)
 
-5. 蓝色矩形
+5. 蓝色矩形  
 ![蓝色矩形](http://ww1.sinaimg.cn/large/61b54654gw1exu1owxkazj20go0hw0u1.jpg)
 
-6. 同心圆
+6. 同心圆  
 ![同心圆](http://ww1.sinaimg.cn/large/61b54654gw1exu1p4ise4j20go0hwwfv.jpg)
 
-7. 随机圆
+7. 随机圆  
 ![随机圆](http://ww1.sinaimg.cn/large/61b54654gw1exu1p9hkl7j20go0hwq3f.jpg)
